@@ -1,0 +1,19 @@
+{
+  "image_size": 64,
+  "batch_size": 128,
+  "nz": 128,
+  "ngf": 128,
+  "ndf": 128,
+  "epochs": 100,
+  "lr_g": 0.0001,
+  "lr_d": 0.0002,
+  "beta1": 0.0,
+  "beta2": 0.99,
+  "label_smooth": 0.1,
+  "inst_noise": 0.05,
+  "noise_fade": 15,
+  "sample_every": 5,
+  "save_every": 20,
+  "sample_dir": "samples",
+  "ckpt_dir": "checkpoints"
+}
